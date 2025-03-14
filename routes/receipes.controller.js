@@ -9,7 +9,7 @@ ReceipesController.get("/receipe/:ReceipeId", getReceipeById);
 
 ReceipesController.post("/createReceipe", createReceipe);
 
-ReceipesController.patch("/updateReceipeTodo/:ReceipeId", updateReceipe);
+ReceipesController.patch("/updateReceipe/:ReceipeId", updateReceipe);
 
 ReceipesController.delete("/deleteReceipe/:ReceipeId", deleteReceipe);
 
